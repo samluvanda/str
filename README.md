@@ -19,6 +19,24 @@ echo $str->toUpperCase()->toString(); // HELLO WORLD
 
 ## 📚 API Reference
 
+### `length` (virtual property)
+
+Returns the number of characters in the string.
+
+**Access:**
+
+- Via magic property access: `$str->length`
+
+**Returns:**  
+`int` — The number of characters in the string.
+
+**Example:**
+```php
+$str = new Str("Hello");
+echo $str->length; // 5
+```
+
+
 ### `__construct()`
 
 Constructor 
