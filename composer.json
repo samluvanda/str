@@ -1,0 +1,29 @@
+{
+    "name": "samluvanda/str",
+    "description": "A fluent, chainable string utility class for PHP.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Samson Luvanda",
+            "email": "s_luvanda@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "ext-mbstring": "*",
+        "ext-intl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Str\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "homepage": "https://github.com/samluvanda/str",
+    "support": {
+        "source": "https://github.com/samluvanda/str",
+        "issues": "https://github.com/samluvanda/str/issues"
+    }
+}
